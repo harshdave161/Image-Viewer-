@@ -1,7 +1,7 @@
 *{
   margin: 0;
   padding:0;
-
+overflow: none;
 scroll-behavior: smooth;
 }
 
@@ -49,6 +49,7 @@ li{
  margin-top: 5%; 
   height: 100vh;
   width: 99vw;
+  margin-bottom: -5%;
 }
 #nature-1{
   display: flex;
@@ -89,7 +90,16 @@ img{
 h1{
   text-align: center; 
 }
-
+.main-container3{
+  margin-bottom: 5px;  
+}
+#bikes-1{
+ /* margin: 0px 60px 0px 60px;*/
+display: grid;
+grid-template-columns: 300px 300px 300px;
+grid-row-gap: 20px;
+justify-content: space-around;
+}
 
 
 
